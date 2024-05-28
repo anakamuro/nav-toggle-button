@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+.logo {
+    height: 70px;
+    width: 70px;
+}
+.links {
+    height: 0;
+    overflow: hidden;
+}
+.show-links {
+    height: 10rem;
+}
+li {
+    list-style: none;
+    border: 1px solid black;
+    padding: 0.7% 1%;
+}
+li a {
+    text-decoration: none;
+}
